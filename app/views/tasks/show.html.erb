@@ -1,0 +1,9 @@
+<h1>Task Show</h1>
+
+<ul>
+<li>Title: <%=  @task.title %></li>
+<li>Details: <%= @task.details %></li>
+<li>Completed: <%= @task.completed %></li>
+<li><%= link_to "Back", tasks_path,
+  method: :get %></li>
+</ul>
